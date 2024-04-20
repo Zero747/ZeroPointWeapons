@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "out\\vscode\\bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Program Files\\Fractal Softworks\\Starsector\\starsector-core\\starfarer.api.jar",
+        "d:\\Program Files\\Fractal Softworks\\Starsector\\starsector-core\\lwjgl.jar",
+        "d:\\Program Files\\Fractal Softworks\\Starsector\\starsector-core\\lwjgl_util.jar",
+        "d:\\Program Files\\Fractal Softworks\\Starsector\\starsector-core\\xstream-1.4.10.jar",
+        "d:\\Program Files\\Fractal Softworks\\Starsector\\mods\\LazyLib\\jars\\LazyLib.jar",
+        "d:\\Program Files\\Fractal Softworks\\Starsector\\mods\\MagicLib\\jars\\MagicLib.jar",
+        "d:\\Program Files\\Fractal Softworks\\Starsector\\mods\\zz GraphicsLib\\jars\\Graphics.jar"
+    ],
+    "java.configuration.runtimes": [
+        {
+            "name":"JavaSE-1.7",
+            "path":"C:\\Program Files\\Java\\JDK7",
+            "default": true
+        }
+    ],
+    "java.project.exportJar.targetPath": "${workspaceFolder}/jars/${workspaceFolderBasename}.jar"
+}

@@ -1,0 +1,8 @@
+id,type,text1,text2,text3,notes
+,,,,,
+#Ballistics,,,,,
+,,,,,
+#Energy,,,,,
+zp_ion_laser,WEAPON,"An extremely long-range, high damage energy beam cannon, the Ion Laser is able to fire more and more destructive energy arcs through shields as the target's hard flux levels go up - at a hefty flux cost for the firing ship.",,,
+zp_resonance,WEAPON,"""I keep telling you, it's witchcraft.""","- Emma Faust, senior technician",,,
+#Missiles,,,,,
