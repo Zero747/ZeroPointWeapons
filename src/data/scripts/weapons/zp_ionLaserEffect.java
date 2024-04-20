@@ -13,7 +13,7 @@ import com.fs.starfarer.api.util.IntervalUtil;
  
 public class zp_ionLaserEffect implements BeamEffectPlugin {
  
-    private IntervalUtil fireInterval = new IntervalUtil(0.25f, 1.0f);
+    private IntervalUtil fireInterval = new IntervalUtil(0.25f, 0.75f);
     private boolean wasZero = true;
     
     
