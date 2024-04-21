@@ -13,7 +13,7 @@ import com.fs.starfarer.api.util.IntervalUtil;
  
 public class zp_ionLaserEffect implements BeamEffectPlugin {
  
-    private IntervalUtil fireInterval = new IntervalUtil(0.25f, 0.75f);
+    private IntervalUtil fireInterval = new IntervalUtil(0.2f, 0.3f);
     private boolean wasZero = true;
     
     
@@ -37,8 +37,8 @@ public class zp_ionLaserEffect implements BeamEffectPlugin {
                 
                 if (!hitShield || piercedShield) {
                     Vector2f point = beam.getRayEndPrevFrame();
-                    float emp = beam.getDamage().getFluxComponent() * 1f;
-                    float dam = beam.getDamage().getDamage() * 0.5f;
+                    float emp = beam.getDamage().getFluxComponent() * 0.5f;
+                    float dam = beam.getDamage().getDamage() * 0.25f;
                     engine.spawnEmpArcPierceShields(
                                        beam.getSource(), point, beam.getDamageTarget(), beam.getDamageTarget(),
                                        DamageType.ENERGY, 
@@ -46,7 +46,7 @@ public class zp_ionLaserEffect implements BeamEffectPlugin {
                                        emp, // emp 
                                        100000f, // max range 
                                        "tachyon_lance_emp_impact",
-                                       beam.getWidth() + 9f,
+                                       beam.getWidth() + 5f,
                                        beam.getFringeColor(),
                                        beam.getCoreColor()
                                        );
