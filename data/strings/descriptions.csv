@@ -7,3 +7,5 @@ zp_arti_battery,WEAPON,"A large launcher carrying lotus charges, contains multip
 zp_ion_laser,WEAPON,"An extremely long-range, high damage energy beam cannon, the Ion Laser is able to fire more and more destructive energy arcs through shields as the target's hard flux levels go up - at a hefty flux cost for the firing ship.",,,
 zp_resonance,WEAPON,"""I keep telling you, it's witchcraft.""","- Emma Faust, senior technician",,,
 #Missiles,,,,,
+#Fighters,,,,,
+zp_Khopesh,SHIP,"A rare variant from before the fall, the Mayasuran Khopesh is upgraded with bigger Obliterator rockets and another wingman to complete the trio. The Khopesh can deliver an accurate and devastating rocket barrage to its target. Safer and more reliable in dealing its damage than other bombers, it also doesn't boast quite the same damage potential.",,,
