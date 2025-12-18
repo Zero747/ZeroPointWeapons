@@ -1,9 +1,9 @@
 {
 	"id":"zero_weapons",
 	"name":"Zero Point Weapons",
-	"version":"0.3",
+	"version":"0.4",
 	"author": "Zero747",
-	"description":"Tiny weapon hacked together from vanilla assets",
+	"description":"Tiny personal use weapon pack hacked together from vanilla and modded content",
 	"gameVersion":"0.98a-RC5",
 	"jars":["jars/ZeroPointWeapons.jar"]
 }

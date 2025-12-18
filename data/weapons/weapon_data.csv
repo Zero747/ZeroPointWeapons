@@ -7,11 +7,14 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 #Missiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Medium,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Ballistics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lotus Charge Launcher,zp_arti_launcher,1,,3000,800,,500,,50,10,12,,,,HIGH_EXPLOSIVE,300,,0,7.7,4,0.1,20,30,2,2,,500,500,10,800,,,DO_NOT_AIM,"he16, rare_bp, hist1t, merc",,ZeroPoint,,Pressure,,,,,"Launches charges which fire at nearby targets after arming. ECCM Package improves accuracy.",,,,,
+System_lotus_charge,zp_artillery_charge,,,3000,750,,500,,100,5,16,,,,HIGH_EXPLOSIVE,700,,0,3,1,,0,10,5,10,,500,,,250,,,SYSTEM,,,,,Anti Armor,,,,,,,,,,
 #Energy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Missiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Large,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Ballistics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lotus Charge Battery,zp_arti_battery,1,,8500,800,,500,,50,10,22,14,0.5,7,HIGH_EXPLOSIVE,300,,0,0.2,,,20,30,2,2,,500,500,10,800,,,DO_NOT_AIM,"he18, rare_bp, hist1t, merc",,ZeroPoint,,Pressure,,,,,"Launches charges which fire at nearby targets after arming. ECCM Package improves accuracy.",,,,,
 #Energy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-High Power Ion Beam,zp_ion_laser,3,0.5,5000,1000,400,,400,0,25,25,,,,ENERGY,,500,0.1,0.1,,,,,,,2400,,,,,,,FIRE_WHEN_INEFFICIENT,"beam14, LR, remnant, rare_bp, hist1t, merc",,ZeroPoint,,Suppression,,,,,"Hits on hull or armor periodically arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,22.85
+High Power Ion Beam,zp_ion_laser,3,0.5,5000,1000,500,,1000,0,25,25,,,,ENERGY,,500,0.1,0.1,,,,,,,2400,,,,,,,FIRE_WHEN_INEFFICIENT,"beam14, LR, remnant, rare_bp, hist1t, merc",,ZeroPoint,,Suppression,,,,,"Hits on hull or armor periodically arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,22.85
 Resonance Cascade Emitter,zp_resonance,3,0.4,100000,1000,400,,,0,20,30,,,,ENERGY,,500,0.1,0.1,,,,,,,2400,,,,,,,FIRE_WHEN_INEFFICIENT,"beam17, LR, remnant, rare_bp, hist1t",,ZeroPoint,,Suppression,,,,,"Creates space-time rifts along the beam length, targeting enemy ships. Each rift deals up to %s energy damage to nearby targets.",200,,,,21
 #Missiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

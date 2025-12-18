@@ -1,0 +1,56 @@
+{
+  "id": "zp_arti_launcher",
+  "specClass": "projectile",
+  "projectileSpecId": "zp_arti_proj",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 450,
+  "turretSprite": "graphics/weapons/zp_charge_launcher_t.png",
+  "hardpointSprite": "graphics/weapons/zp_charge_launcher_h.png",
+  "turretOffsets": [
+    10,
+    -5,
+    10,
+    5,
+    0,
+    -5,
+    0,
+    5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    18,
+    -5,
+    18,
+    5,
+    5,
+    -5,
+    5,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    -0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "interruptibleBurst": false,
+  "animationType": "SMOKE",
+  "smokeSpec":{"particleSizeMin":20.0,
+				 "particleSizeRange":20.0,
+				 "cloudParticleCount":3,
+				 "cloudDuration":1.0,
+				 "cloudRadius":10.0,
+				 "blowbackParticleCount":3,
+				 "blowbackDuration":2.0,
+				 "blowbackLength":30.0,
+				 "blowbackSpread":10.0,
+				 "particleColor":[100,100,100,200]},
+  "fireSoundTwo": "mjolnir_fire"
+}
